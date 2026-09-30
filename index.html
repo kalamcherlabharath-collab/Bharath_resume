@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharath Kalamcherla - Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f9f9fb; color: #333; }
+
+    header {
+      background: linear-gradient(135deg, #007AFF, #4A90E2);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover { background: #007AFF; }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 { color: #007AFF; margin-bottom: 1rem; }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill {
+      background: #007AFF;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+    .skill:hover { background: #005BBB; }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+    footer button {
+      background: #007AFF;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    footer button:hover { background: #005BBB; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      nav { flex-direction: column; }
+      nav a { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bharath Kalamcherla</h1>
+    <p>Student | Full-Stack Developer | Cricket Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#interests">Interests</a>
+    <a href="#career">Career</a>
+    <a href="#skills">Skills</a>
+  </nav>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>10th:</strong> MMHS High School — GPA: 9.2</p>
+    </div>
+    <div class="card">
+      <p><strong>Intermediate:</strong> SR Junior College — 912/1000 Marks</p>
+    </div>
+    <div class="card">
+      <p><strong>B.Tech:</strong> MRDU Malla Reddy College — Present</p>
+    </div>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <div class="card">
+      <p>Playing Cricket</p>
+      <p>Watching Movies</p>
+    </div>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <div class="card">
